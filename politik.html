@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -11,22 +12,26 @@
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
 	 crossorigin="anonymous">
+
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 	 crossorigin="anonymous">
-  </script>
-	<script 	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 	 crossorigin="anonymous">
+
 	</script>
 </head>
-  <body>
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="index.html">AlpakaNews</a>
+<body>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="index.html">AlpakaNews</a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -54,6 +59,12 @@
       <li class="nav-item">
         <a class="nav-link" href="sonstiges.html">Sonstiges</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">Mein Profil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tweet_widerlegen.html">Tweet hinzufügen</a>
+      </li>
 
       <form class="form-inline" action="/action_page.php">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -68,6 +79,27 @@
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Biden did poorly in big cities (Politico), except those of Detroit (more votes than people!), Philadelphia, Atlanta and Milwaukee, which he had to win. Not surprisingly, they are all located in the most important swing states, and are long known for being politically corrupt!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1332407714304110597?ref_src=twsrc%5Etfw">November 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+ <div class="container">
+  <form action="/action_page.php">
+    <div class="form-check-inline">
+      <form>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+          <label class="custom-control-label" for="customRadio">👍</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input type="radio" class="custom-control-input"
+          id="customRadio2" 
+          name="example" value="customEx">
+          <label class="custom-control-label" for="customRadio2">👎</label>
+        </div>
+      </form>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
 
   <div class="form-group">
     <label for="comment">Comment:</label>
@@ -75,10 +107,29 @@
   </div>
 
 
+  <div class="container mt-3">
+  <div class="media border p-3">
+    <img src="img_avatar3.png" alt="Name" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Name <small><i>Posted on February 19, 2016</i></small></h4>
+      <p>...</p>
+      <p>...</p>
+        <div class="media p-3">
+          <img src="img_avatar2.png" alt="Name2" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+           <div class="media-body">
+            <h4>Name2<small><i>Posted on February 20 2016</i></small></h4>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
 
-  <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The 1,126,940 votes were created out of thin air. I won Pennsylvania by a lot, perhaps more than anyone will ever know. The Pennsylvania votes were RIGGED. All other swing states also. The world is watching! <a href="https://t.co/zmnk34Ny23">https://t.co/zmnk34Ny23</a></p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1332552283553476608?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 
-    
+
+
+   <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The 1,126,940 votes were created out of thin air. I won Pennsylvania by a lot, perhaps more than anyone will ever know. The Pennsylvania votes were RIGGED. All other swing states also. The world is watching! <a href="https://t.co/zmnk34Ny23">https://t.co/zmnk34Ny23</a></p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1332552283553476608?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->     
 
 </body>
 </html>
