@@ -386,3 +386,52 @@ a {
   
 }
 
+
+
+.homepage-text{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+'''@keyframes test {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+.S1 {
+  animation-name: test;
+  animation-duration: 13s;
+  animation-timing-function: linear;
+  animation-delay: 1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}'''
+
+
+.homepage-hintergrund{
+  background-color:yellow;
+}
+
+.homepage-skalierung{
+margin-left:300px;
+margin-right:300px;
+
+
+}
+
+.box-text{
+  text-align: center;
+  margin-top: 10px ; 
+  margin-bottom: 60px ;
+  height: 250;
+  width: 500px;
+
+}
+
+.alpaka{
+  //width: 100px;
+  //heigth: 100px;
+}
